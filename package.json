@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sinh117801/eslint-config.git"
+    "url": "git+ssh://git@github.com/sinh117801/eslint-config.git"
   },
   "keywords": [
     "eslint-config"
@@ -25,5 +25,9 @@
   },
   "devDependencies": {
     "bumpp": "^8.2.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sinh117801/eslint-config/issues"
+  },
+  "homepage": "https://github.com/sinh117801/eslint-config#readme"
 }
