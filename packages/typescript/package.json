@@ -1,0 +1,28 @@
+{
+  "name": "@sinh/eslint-config-typescript",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Sinh <noun.sinh@icloud.com> (https://gitlab.mbanq.com/sinh/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=packages/standard/index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@sinh/eslint-config-standard": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0"
+  },
+  "publishConfig": {
+    "@sinh:registry": "https://registry.npmjs.org"
+  }
+}

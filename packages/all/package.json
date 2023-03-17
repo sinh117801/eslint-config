@@ -1,0 +1,26 @@
+{
+  "name": "@sinh/eslint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Sinh <noun.sinh@icloud.com> (https://gitlab.mbanq.com/sinh/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@sinh/eslint-config-standard": "workspace:*",
+    "@sinh/eslint-config-typescript": "workspace:*"
+  },
+  "publishConfig": {
+    "@sinh:registry": "https://registry.npmjs.org"
+  }
+}

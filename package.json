@@ -1,0 +1,32 @@
+{
+  "name": "@sinh/eslint-config-monorepo",
+  "version": "0.0.1",
+  "description": "Sinh's ESLint config presets",
+  "scripts": {
+    "lint": "eslint .",
+    "bump:prerelease": "bumpp prerelease package.json packages/*/package.json --preid $PREID -yes --no-verify",
+    "bump:next": "bumpp next package.json packages/*/package.json --preid $PREID -yes --no-verify",
+    "bump": "bumpp package.json packages/*/package.json --preid $PREID",
+    "release": "pnpm -r publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sinh117801/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Sinh <noun.sinh@icloud.com> (https://github.com/sinh117801/)",
+  "license": "MIT",
+  "publishConfig": {
+    "@sinh:registry": "https://registry.npmjs.org"
+  },
+  "packageManager": "pnpm@7.1.0",
+  "dependencies": {
+    "@sinh/eslint-config": "workspace:*",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "bumpp": "^8.2.1"
+  }
+}
