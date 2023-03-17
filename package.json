@@ -7,7 +7,7 @@
     "bump:prerelease": "bumpp prerelease package.json packages/*/package.json --preid $PREID -yes --no-verify",
     "bump:next": "bumpp next package.json packages/*/package.json --preid $PREID -yes --no-verify",
     "bump": "bumpp package.json packages/*/package.json --preid $PREID",
-    "release": "pnpm -r publish"
+    "release": "pnpm -r publish --access public"
   },
   "repository": {
     "type": "git",
