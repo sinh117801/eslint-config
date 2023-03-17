@@ -19,8 +19,5 @@
   "dependencies": {
     "@sinh/eslint-config-standard": "workspace:*",
     "@sinh/eslint-config-typescript": "workspace:*"
-  },
-  "publishConfig": {
-    "@sinh:registry": "https://registry.npmjs.org"
   }
 }

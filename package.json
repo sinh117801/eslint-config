@@ -18,9 +18,6 @@
   ],
   "author": "Sinh <noun.sinh@icloud.com> (https://github.com/sinh117801/)",
   "license": "MIT",
-  "publishConfig": {
-    "@sinh:registry": "https://registry.npmjs.org"
-  },
   "packageManager": "pnpm@7.1.0",
   "dependencies": {
     "@sinh/eslint-config": "workspace:*",

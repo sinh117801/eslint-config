@@ -21,8 +21,5 @@
     "@sinh/eslint-config-standard": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0"
-  },
-  "publishConfig": {
-    "@sinh:registry": "https://registry.npmjs.org"
   }
 }
