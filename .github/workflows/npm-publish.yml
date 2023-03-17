@@ -9,18 +9,7 @@ on:
       - 'v*'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm install -g pnpm
-      - run: pnpm install
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -28,6 +17,8 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
+      - run: npm install -g pnpm
+      - run: pnpm install
       - run: pnpm release
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
