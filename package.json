@@ -1,6 +1,6 @@
 {
   "name": "@sinh/eslint-config-monorepo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sinh's ESLint config presets",
   "scripts": {
     "lint": "eslint .",
