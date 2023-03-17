@@ -1,6 +1,6 @@
 {
   "name": "@sinh/eslint-config-monorepo",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Sinh's ESLint config presets",
   "scripts": {
     "lint": "eslint .",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sinh117801/eslint-config.git"
+    "url": "git@github.com:sinh117801/eslint-config.git"
   },
   "keywords": [
     "eslint-config"
@@ -25,9 +25,5 @@
   },
   "devDependencies": {
     "bumpp": "^8.2.1"
-  },
-  "bugs": {
-    "url": "https://github.com/sinh117801/eslint-config/issues"
-  },
-  "homepage": "https://github.com/sinh117801/eslint-config#readme"
+  }
 }
