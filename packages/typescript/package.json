@@ -1,6 +1,6 @@
 {
   "name": "@sinh117801/eslint-config-typescript",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Sinh's ESLint config presets specific for TypeScript which also includes @sinh117801/eslint-config-standard",
   "main": "index.js",
   "files": [
