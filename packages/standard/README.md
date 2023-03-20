@@ -5,7 +5,7 @@
 ### Install
 
 ```bash
-npm install --save-dev eslint @sinh117801/eslint-config
+npm install --save-dev eslint @sinh117801/eslint-config-standard
 ```
 
 ### Config `.eslintrc`
