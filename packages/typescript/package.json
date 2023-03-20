@@ -1,5 +1,5 @@
 {
-  "name": "@sinh/eslint-config-typescript",
+  "name": "@sinh117801/eslint-config-typescript",
   "version": "1.0.7",
   "main": "index.js",
   "files": [
@@ -18,7 +18,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@sinh/eslint-config-standard": "workspace:*",
+    "@sinh117801/eslint-config-standard": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0"
   }

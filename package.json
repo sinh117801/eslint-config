@@ -1,5 +1,5 @@
 {
-  "name": "@sinh/eslint-config-monorepo",
+  "name": "@sinh117801/eslint-config-monorepo",
   "version": "1.0.7",
   "description": "Sinh's ESLint config presets",
   "scripts": {
@@ -20,7 +20,7 @@
   "license": "MIT",
   "packageManager": "pnpm@7.1.0",
   "dependencies": {
-    "@sinh/eslint-config": "workspace:*",
+    "@sinh117801/eslint-config": "workspace:*",
     "typescript": "^4.9.5"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@sinh/eslint-config",
+  "name": "@sinh117801/eslint-config",
   "version": "1.0.7",
   "main": "index.js",
   "files": [
@@ -17,7 +17,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@sinh/eslint-config-standard": "workspace:*",
-    "@sinh/eslint-config-typescript": "workspace:*"
+    "@sinh117801/eslint-config-standard": "workspace:*",
+    "@sinh117801/eslint-config-typescript": "workspace:*"
   }
 }

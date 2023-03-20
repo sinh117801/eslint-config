@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@sinh/eslint-config-standard',
-    '@sinh/eslint-config-typescript'
+    '@sinh117801/eslint-config-standard',
+    '@sinh117801/eslint-config-typescript'
   ]
 };

@@ -4,22 +4,22 @@ importers:
 
   .:
     specifiers:
-      '@sinh/eslint-config': workspace:*
+      '@sinh117801/eslint-config': workspace:*
       bumpp: ^8.2.1
       typescript: ^4.9.5
     dependencies:
-      '@sinh/eslint-config': link:packages/all
+      '@sinh117801/eslint-config': link:packages/all
       typescript: 4.9.5
     devDependencies:
       bumpp: 8.2.1
 
   packages/all:
     specifiers:
-      '@sinh/eslint-config-standard': workspace:*
-      '@sinh/eslint-config-typescript': workspace:*
+      '@sinh117801/eslint-config-standard': workspace:*
+      '@sinh117801/eslint-config-typescript': workspace:*
     dependencies:
-      '@sinh/eslint-config-standard': link:../standard
-      '@sinh/eslint-config-typescript': link:../typescript
+      '@sinh117801/eslint-config-standard': link:../standard
+      '@sinh117801/eslint-config-typescript': link:../typescript
 
   packages/standard:
     specifiers:
@@ -39,11 +39,11 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@sinh/eslint-config-standard': workspace:*
+      '@sinh117801/eslint-config-standard': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.46.0
       '@typescript-eslint/parser': ^5.46.0
     dependencies:
-      '@sinh/eslint-config-standard': link:../standard
+      '@sinh117801/eslint-config-standard': link:../standard
       '@typescript-eslint/eslint-plugin': 5.47.0_u3d3rrkige6drsqrtepmpdrvki
       '@typescript-eslint/parser': 5.47.0
 

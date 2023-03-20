@@ -12,7 +12,7 @@ npm install --save-dev eslint @sinh117801/eslint-config
 
 ```json
 {
-  "extends": "@sinh"
+  "extends": "@sinh117801/eslint-config-typescript"
 }
 ```
 
